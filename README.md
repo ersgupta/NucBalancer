@@ -30,9 +30,9 @@ GENSET is a versatile tool designed to assist in optimizing nucleotide pooling s
    Rscript GENSET.R <sample_file> <barcodes_file> <max_red_overall> <max_red_per_position> <outfile>
    ```
 #### Command Line Arguments:
-| Option | Description |
-| ------------|--------------------------------------|
-| sample_file | Path to the samples information file |
+| Option | Description|
+| ---|---|
+| sample_file | Path to the samples information file|
 | barcodes_file| Path to the list of barcodes available for selection|
 | max_red_overall| Maximum number of *red* flags allowed for the entire set|
 | max_red_per_position | Maximum number of *red* flags allowed per position|
@@ -40,6 +40,17 @@ GENSET is a versatile tool designed to assist in optimizing nucleotide pooling s
 
 #### ShinyApp
 Alternatively, GENSET is available at XXXX.
+
+### File formats
+* Sample information file (Tab-separated file with the following columns):
+  - Sample_ID : sample name.
+  - pct : Pooling proportion of the sample (total of this column should be 1).
+  - barcode : Barcode sequence of the sample, if assigned already. If not assigned mention "-".
+  - barcode_id : Barcode ID, if assigned already. If not assigned mention "-".
+ 
+* Barcodes file (Tab-separated file):
+  - barcode_sequence : Barcode sequence.
+  - barcode_id : Barcode ID
 
 ## License
 This project is licensed under GPL v3.0 License.

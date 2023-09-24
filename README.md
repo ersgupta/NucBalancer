@@ -1,6 +1,6 @@
-# GENSET
+# NucBalancer
 
-GENSET is a versatile tool designed to assist in optimizing nucleotide pooling strategies for high-throughput genomic analyses. The tool evaluates nucleotide distribution uniformity across positions and allows users to set customizable red flag thresholds, ensuring optimal results while accommodating variability.
+NucBalancer is a versatile tool designed to assist in optimizing nucleotide pooling strategies for high-throughput genomic analyses. The tool evaluates nucleotide distribution uniformity across positions and allows users to set customizable red flag thresholds, ensuring optimal results while accommodating variability.
 
 ## Features
 
@@ -18,7 +18,7 @@ GENSET is a versatile tool designed to assist in optimizing nucleotide pooling s
 
 ### Installation
    ```bash
-   git clone https://github.com/ersgupta/GENSET.git
+   git clone https://github.com/ersgupta/NucBalancer.git
    ```
 ### Install required packages
    ```bash
@@ -27,7 +27,7 @@ GENSET is a versatile tool designed to assist in optimizing nucleotide pooling s
    ```
 ### Usage
    ```bash
-   Rscript GENSET.R <sample_file> <barcodes_file> <max_red_overall> <max_red_per_position> <outfile>
+   Rscript NucBalancer.R <sample_file> <barcodes_file> <max_red_overall> <max_red_per_position> <outfile>
    ```
 #### Command Line Arguments:
 | Option | Description|
@@ -39,7 +39,7 @@ GENSET is a versatile tool designed to assist in optimizing nucleotide pooling s
 | outfile | Output file name|
 
 #### ShinyApp
-Alternatively, GENSET is available at XXXX.
+Alternatively, NucBalancer is available at XXXX.
 
 ### File formats
 * Sample information file (Tab-separated file with the following columns):

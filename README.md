@@ -39,7 +39,7 @@ NucBalancer is a versatile tool designed to assist in optimizing nucleotide pool
 | outfile | Output file name|
 
 #### ShinyApp
-Alternatively, NucBalancer is available at http://146.118.68.98:8888/.
+Alternatively, NucBalancer is available at https://ersgupta.shinyapps.io/nucleotidebalancer/ and http://146.118.68.98:8888/.
 
 ### File formats
 * Sample information file (Tab-separated file with the following columns):

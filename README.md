@@ -71,4 +71,4 @@ Alternatively, NucBalancer is available at https://ersgupta.shinyapps.io/nucleot
 This project is licensed under GPL v3.0 License.
 
 ## Contact
-For questions or feedback, feel free to reach out to saurabh.gupta@curtin.edu.au / ankur.sharma@curtin.edu.au.
+For questions or feedback, feel free to reach out to saurabh.gupta@curtin.edu.au / ankur.sharma@garvan.org.au.

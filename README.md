@@ -54,7 +54,7 @@ Note: NucBalancer has been internally used to run upto 20 samples using set of 9
 | outfile | Output file name|
 
 #### ShinyApp
-Alternatively, NucBalancer is available at https://ersgupta.shinyapps.io/nucleotidebalancer/ and http://146.118.68.98:8888/.
+Alternatively, NucBalancer is available at https://ersgupta.shinyapps.io/nucleotidebalancer/.
 
 ### File formats
 * Sample information file (Tab-separated file with the following columns):
